@@ -6,7 +6,7 @@
  
 int Top=-1, inp_array[Size];
 void Push();
-
+void Pop();
  
 int main()
 {
@@ -50,5 +50,6 @@ void Push()
 		inp_array[Top]=x;
 	}
 }
+
  
  
